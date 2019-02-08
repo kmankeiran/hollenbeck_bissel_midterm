@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: #e1ffbd;
+	background-color: #51c9ff;
 }
 
 h1, h2, h3, p, a {
@@ -16,6 +16,11 @@ h1, h2, h3, p, a {
 
 a {
 	text-decoration: none;
+}
+
+#bar {
+	height: 305px;
+	background-color: #70ba1a; 
 }
 
 #siteContainer {
