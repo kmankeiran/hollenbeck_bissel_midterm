@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
+}
+
+body {
+	background-color: #e1ffbd;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#siteContainer
+{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	background-color: #70ba1a;
+	height: 330px;
+}
+#headerImages
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#headerImages img
+{
+	margin-top: 30px;
+}
+
+#imgOne
+{
+	
+}
+
+#imgTwo
+{
+	
+}
+
+#logo
+{
+	margin-right: auto;
+	margin-left: 25px;
+}
+
+#mainNav
+{
+	margin-left: 139px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#mainNav ul
+{
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a
+{
+	display: block;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 85px;
+	padding: 8px;
+	color: #fff;
+	font-size: 14px;
+	transition: all .3s ease;
+}
+
+#mainNav ul li a:hover {
+	background-color: #006600;
+}
