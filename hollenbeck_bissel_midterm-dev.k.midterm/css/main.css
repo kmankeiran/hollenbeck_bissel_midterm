@@ -7,60 +7,85 @@
 }
 
 body {
-	background-color: #e1ffbd;
+	background-color: #51c9ff;
 }
 
-a
-{
+h1, h2, h3, p, a {
+	font-family: "oswald", Helvetica, Arial, sans-serif;
+}
+
+a {
 	text-decoration: none;
 }
 
-#siteContainer
-{
+#bar {
+	height: 305px;
+	background-color: #70ba1a; 
+}
+
+#siteContainer {
 	width: 1100px;
 	margin: 0 auto;
+	background-color: #51c9ff;
 }
 
-#mainHeader
-{
+#mainHeader {
 	display: flex;
 	flex-direction: row;
+	width: 1100px;
 	background-color: #70ba1a;
-	height: 330px;
 }
-#headerImages
-{
+
+#leftHead {
 	display: flex;
 	flex-direction: row;
 }
 
-#headerImages img
-{
-	margin-top: 30px;
+.hp1 {
+	width: 180px;
+	height: 114px;
+	margin-top: 27px;
 }
 
-#imgOne
-{
-	
+.hp2 {
+	width: 194px;
+	height: 119px;
+	margin-top: 35px;
+	margin-left: 10px;
 }
 
-#imgTwo
-{
-	
+.logo {
+	width: 285px;
+	height: 245px;
+	margin-left: 40px;
 }
 
-#logo
-{
-	margin-right: auto;
-	margin-left: 25px;
+#rightHead {
+	display: flex; 
+	flex-direction: row;
+	margin-left: auto;
+}
+
+.hp3 {
+	width: 187px;
+	height: 166px;
+	margin-top: 35px;
+	margin-right: 10px;
+}
+
+.hp4 {
+	width: 150px;
+	height: 135px;
+	margin-top: 27px;
 }
 
 #mainNav
 {
-	margin-left: 139px;
 	display: flex;
 	flex-direction: row;
-
+	background-color: #70ba1a;
+	justify-content: space-evenly;
+	height: 60px;
 }
 
 #mainNav ul

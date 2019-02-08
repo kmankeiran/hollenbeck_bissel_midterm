@@ -5,22 +5,33 @@
 <title>Web Template</title>
 <!--link to reset first-->
 <link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<header id="mainHeader">
-		<div id="siteContainer">
-			<div id="headerImages">
-				<h1 class="hidden">Header Images</h1>
-				<img src="images/header-photo1.jpg" width="150" height="85" id="imgOne">
-				<img src="images/header-photo2.jpg" width="150" height="85" id="imgTwo">
-				<img src="images/traa_logo-MASTER.png" width="245" height="245" id="logo">
-				<img src="images/header-photo3.jpg" width="150" height="85" id="imgThree">
-				<img src="images/header-photo4.jpg" width="150" height="85" id="imgFour">
+<div id="bar">
+
+	<div id="mainHeader">
+			
+			<div id="leftHead"> 
+					<h2 class="hidden">Header Images</h2>
+				<img src="images/header-photo1.png" alt="header image one" class="hp1">
+				<img src="images/header-photo2.png" alt="header image two" class="hp2">
 			</div>
-			<nav id="mainNav">
-				<h2 class="hidden">Main Navigation</h2>
+					<h2 class="hidden">Header Logo</h2>
+				<img src="images/traa_logo-MASTER.png" alt="main logo" class="logo">
+
+			<div id="rightHead">
+					<h2 class="hidden">Header Images</h2>
+				<img src="images/header-photo3.png" alt="header image three" class="hp3">
+				<img src="images/header-photo4.png" alt="header image four" class="hp4">
+			</div>
+		</div>
+			
+			<div id="mainNav">
+			<h2 class="hidden">Main Navigation</h2>
+			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
@@ -30,13 +41,12 @@
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
-		</div>
-	</header>
+			</div>
 
 	<section id="welcome">
 		<h1 id="traaHeading">Welcome to the TRAA</h1>
 	</section>
-
+</div>
 <!--load js at bottom, so DOM gets built-->
 	<script src="js/main.js"></script>
 </body>
