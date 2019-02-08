@@ -10,6 +10,14 @@ body {
 	background-color: #e1ffbd;
 }
 
+h1, h2, h3, p, a {
+	font-family: "oswald", Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
 #siteContainer {
 	width: 1100px;
 	margin: 0 auto;
@@ -19,7 +27,6 @@ body {
 #mainHeader {
 	display: flex;
 	flex-direction: row;
-	height: 269px;
 	width: 1100px;
 	background-color: #70ba1a;
 }
@@ -32,14 +39,12 @@ body {
 .hp1 {
 	width: 180px;
 	height: 114px;
-	background-color: #000;
 	margin-top: 27px;
 }
 
 .hp2 {
 	width: 194px;
 	height: 119px;
-	background-color: #000;
 	margin-top: 35px;
 	margin-left: 10px;
 }
@@ -47,7 +52,6 @@ body {
 .logo {
 	width: 285px;
 	height: 245px;
-	background-color: #000;
 	margin-left: 40px;
 }
 
@@ -60,7 +64,6 @@ body {
 .hp3 {
 	width: 187px;
 	height: 166px;
-	background-color: #000;
 	margin-top: 35px;
 	margin-right: 10px;
 }
@@ -68,24 +71,40 @@ body {
 .hp4 {
 	width: 150px;
 	height: 135px;
-	background-color: #000;
 	margin-top: 27px;
 }
 
-#navBar {
+#mainNav
+{
 	display: flex;
 	flex-direction: row;
-	width: 1100px;
 	background-color: #70ba1a;
+	justify-content: space-evenly;
+	height: 60px;
 }
 
-.nav {
-	width: 738px;
-	height: 50px;
-	background-color: #000;
-	margin-right: auto;
-	margin-bottom: 15px;
-	margin-left: 181px;
+#mainNav ul
+{
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a
+{
+	display: block;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 85px;
+	padding: 8px;
+	color: #fff;
+	font-size: 14px;
+	transition: all .3s ease;
+}
+
+#mainNav ul li a:hover {
+	background-color: #006600;
 }
 
 .heading {
