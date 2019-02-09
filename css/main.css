@@ -18,6 +18,7 @@ a {
 	text-decoration: none;
 }
 
+/* Header. Same across the 6 pages.*/
 #bar {
 	height: 305px;
 	background-color: #70ba1a; 
@@ -112,7 +113,13 @@ a {
 	background-color: #006600;
 }
 
-.heading {
+/* end of header */
+
+
+
+
+/* about page */
+.aboutHeading {
 	margin-left: 100px;
 	font-size: 35px;
 	margin-top: 45px;
@@ -120,7 +127,7 @@ a {
 	color: #006600;	
 }
 
-.paragraph {
+.aboutPar1 {
 	width: 825px;
 	height: 307px;
 	margin-top: 15px;
@@ -157,7 +164,7 @@ a {
 	background-color: #000;
 }
 
-.paragraph2 {
+.aboutPar2 {
 	width: 825px;
 	height: 286px;
 	margin-left: 150px;
@@ -166,6 +173,11 @@ a {
 	color: white;
 	line-height: 26px;
 }
+/*end of about page*/
+
+
+
+
 
 #mainFooter {
 	height: 150px;
