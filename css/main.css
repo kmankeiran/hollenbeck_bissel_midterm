@@ -113,19 +113,21 @@ a {
 }
 
 .heading {
-	width: 187px;
-	height: 37px;
-	margin-left: 203px;
-	background-color: #000;
-	margin-top: 45px;	
+	margin-left: 100px;
+	font-size: 35px;
+	margin-top: 45px;
+	text-decoration: underline;
+	color: #006600;	
 }
 
 .paragraph {
-	width: 653px;
+	width: 825px;
 	height: 307px;
-	background-color: #000;
 	margin-top: 15px;
-	margin-left: 240px;
+	margin-left: 150px;
+	color: white;
+	font-size: 22px;
+	line-height: 26px;
 }
 
 #pictures {
@@ -134,33 +136,35 @@ a {
 	margin-top: 20px;
 }
 
-.image1 {
+.aboutCon1 {
 	width: 201px;
-	height: 192px;
+	height: 140px;
 	margin-left: 170px;
 	background-color: #000;
 }
 
-.image2 {
+.aboutCon2 {
 	width: 201px;
-	height: 192px;
+	height: 140px;
 	margin-left: 86px;
 	background-color: #000;
 }
 
-.image3 {
+.aboutCon3 {
 	width: 201px;
-	height: 192px;
+	height: 140px;
 	margin-left: 86px;
 	background-color: #000;
 }
 
 .paragraph2 {
-	width: 626px;
+	width: 825px;
 	height: 286px;
-	background-color: #000;
-	margin-left: 240px;
+	margin-left: 150px;
 	margin-top: 42px;
+	font-size: 22px;
+	color: white;
+	line-height: 26px;
 }
 
 #mainFooter {
