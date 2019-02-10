@@ -436,6 +436,60 @@ a {
 
 /*start of contact page*/
 
+#contactHeading {
+	margin-left: 100px;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	color: #70ba1a;	
+}
+
+.contactPar1 {
+	width: 825px;
+	margin-top: 15px;
+	margin-left: 150px;
+	color: white;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.contactPar2 {
+	width: 505px;
+	margin-top: 15px;
+	margin-left: 150px;
+	color: white;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+#contactParLeft {
+	display: flex;
+	flex-direction: row;
+}
+
+iframe {
+	width: 300px;
+	height: 300px;
+}
+
+#aboutMeetingHeading {
+	margin-left: 100px;
+	font-size: 35px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: #70ba1a;
+}
+
+.aboutMeetingText {
+	width: 825px;
+	margin-top: 15px;
+	margin-left: 150px;
+	color: white;
+	font-size: 22px;
+	line-height: 26px;
+}
+
 /*end of contact page*/
 
 
