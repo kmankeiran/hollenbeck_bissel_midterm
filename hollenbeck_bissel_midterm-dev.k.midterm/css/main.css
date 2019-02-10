@@ -142,7 +142,7 @@ a {
 {
 	color: #fff;
 	width: 440px;
-	font-size: 20px;
+	font-size: 22px;
 	margin-top: 40px;
 }
 
@@ -201,7 +201,7 @@ a {
 	width: 600px;
 	margin-right: 120px;
 	color: #fff;
-	font-size: 18px;
+	font-size: 22px;
 	margin-top: 30px;
 }
 
@@ -226,7 +226,7 @@ a {
 #specialThanks p
 {
 	text-align: center;
-	font-size: 20px;
+	font-size: 22px;
 	color: #fff;
 }
 
@@ -323,7 +323,7 @@ a {
 }
 /* End of home page*/
 
-/*Begining of Projects page*/
+/*Projects page*/
 #traaProjects h2
 {
 	margin-top: 30px;
@@ -418,6 +418,108 @@ a {
 	margin-left: 350px;
 	margin-top: 20px;
 }
+
+/*End of Project Page*/
+
+/*References Page*/
+
+#traaReferences h2
+{
+	color: #70ba1a;
+	font-size: 24px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#traaReferences h3
+{
+	text-decoration: underline;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#traaReferences ul li p a
+{
+	color: red;
+}
+
+#traaReferences ul li p
+{
+	color: #fff;
+	font-size: 19px;
+}
+
+#conversationAuth h2
+{
+	text-decoration: underline;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#conversationAuth ul li a
+{
+	color: red;
+	line-height: 30px;
+	font-size: 19px;
+}
+
+#governmentalEnt h2
+{
+	text-decoration: underline;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#governmentalEnt ul li a
+{
+	color: red;
+	line-height: 30px;
+	font-size: 19px;
+}
+
+#relatedRetailers h2
+{
+	text-decoration: underline;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#relatedRetailers ul li p a
+{
+	color: red;
+	line-height: 20px;
+}
+
+#relatedRetailers ul li p
+{
+	color: #fff;
+	font-size: 19px;
+}
+
+#relatedLinks h2
+{
+	text-decoration: underline;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#relatedLinks ul li p a
+{
+	color: red;
+	line-height: 20px;
+}
+
+#relatedLinks ul li p
+{
+	color: #fff;
+	font-size: 19px;
+}
+
+/*End of References Page*/
 
 /* Footer */
 #footerNav
