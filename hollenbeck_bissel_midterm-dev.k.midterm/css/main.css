@@ -323,7 +323,101 @@ a {
 }
 /* End of home page*/
 
+/*Begining of Projects page*/
+#traaProjects h2
+{
+	margin-top: 30px;
+	color: #70ba1a;
+	font-size: 26px;
+	margin-left: 310px;
+}
 
+#traaProjects p
+{
+	margin-top: 20px;
+	color: #fff;
+	font-size: 24px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#salmonMonitoring
+{
+	margin-top: 70px;
+}
+
+#salmonMonitoring h2
+{
+	color: #70ba1a;
+	font-size: 26px;
+	margin-bottom: 15px;
+}
+
+#salmonMonitoring p
+{
+	color: #fff;
+	font-size: 24px;
+}
+#monitoringPhotos
+{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+#monitoringPhotos img
+{
+	border-radius: 15px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#troutHatchery p
+{
+	color: #fff;
+	font-size: 24px;
+	margin-top: 15px;
+}
+
+#hatcheryPhotos
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#hatcheryPhotos img
+{
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+#incubation p
+{
+	color: #fff;
+	font-size: 24px;
+	margin-top: 15px;
+}
+
+#incubationPhotos
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#incubationPhotos img
+{
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+#fryBox img
+{
+	border-radius: 15px;
+	margin-left: 350px;
+	margin-top: 20px;
+}
 
 /* Footer */
 #footerNav
