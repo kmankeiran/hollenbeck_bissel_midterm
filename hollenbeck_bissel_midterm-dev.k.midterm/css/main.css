@@ -377,6 +377,42 @@ a {
 	color: white;
 	line-height: 26px;
 }
+
+.chartHeading {
+	text-align: center;
+	font-size: 35px;
+	margin-top: 45px;
+	font-weight: bold;
+	color: #70ba1a;	
+}
+
+#charts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 25px;
+	margin-top: 40px;
+}
+
+#charts img {
+	width: 340px;
+	height: 340px;
+}
+
+.hatch {
+	border: 1px solid;
+	border-radius: 4px;
+}
+
+.recieved {
+	border: 1px solid;
+	border-radius: 4px;
+}
+
+.member {
+	border: 1px solid;
+	border-radius: 4px;
+}
 /*end of about page*/
 
 /*Projects page*/
