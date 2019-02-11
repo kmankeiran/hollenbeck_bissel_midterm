@@ -551,7 +551,6 @@ a {
 	background-color: #70ba1a;
 	color: white;
 	line-height: 60px;
-	border: 1px solid #70ba1a;
 	border-radius: 15px;
 	padding: 5px;
 }
@@ -940,4 +939,4 @@ iframe {
 {
 	background-color: #006600;
 }
-/* end of footer/*
+/* end of footer*/
