@@ -1,0 +1,558 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
+}
+
+body {
+	background-color: #51c9ff;
+}
+
+h1, h2, h3, p, a {
+	font-family: "oswald", Helvetica, Arial, sans-serif;
+}
+
+p
+{
+	line-height: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*header*/
+#bar {
+	height: 305px;
+	background-color: #70ba1a; 
+}
+
+#siteContainer {
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #51c9ff;
+}
+
+#mainHeader {
+	display: flex;
+	flex-direction: row;
+	width: 1100px;
+	background-color: #70ba1a;
+}
+
+#leftHead {
+	display: flex;
+	flex-direction: row;
+}
+
+.hp1 {
+	width: 180px;
+	height: 114px;
+	margin-top: 27px;
+}
+
+.hp2 {
+	width: 194px;
+	height: 119px;
+	margin-top: 35px;
+	margin-left: 10px;
+}
+
+.logo {
+	width: 285px;
+	height: 245px;
+	margin-left: 40px;
+}
+
+#rightHead {
+	display: flex; 
+	flex-direction: row;
+	margin-left: auto;
+}
+
+.hp3 {
+	width: 187px;
+	height: 166px;
+	margin-top: 35px;
+	margin-right: 10px;
+}
+
+.hp4 {
+	width: 150px;
+	height: 135px;
+	margin-top: 27px;
+}
+
+#mainNav
+{
+	display: flex;
+	flex-direction: row;
+	background-color: #70ba1a;
+	justify-content: space-evenly;
+	height: 60px;
+}
+
+#mainNav ul
+{
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a
+{
+	display: block;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 85px;
+	padding: 8px;
+	color: #fff;
+	font-size: 14px;
+	transition: all .3s ease;
+}
+
+#mainNav ul li a:hover {
+	background-color: #006600;
+}
+/*end of header*/
+
+
+
+/* Home page */
+#traaHeading
+{
+	font-size: 40px;
+	color: #70ba1a;
+	margin-top: 20px;
+}
+
+#traaIntroduction
+{
+	color: #70ba1a;
+	font-size: 30px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+#introParagraph
+{
+	color: #fff;
+	width: 440px;
+	font-size: 22px;
+	margin-top: 40px;
+}
+
+#streamHabitat
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#streamHabitat img
+{
+	margin-top: 50px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(50,50,50,0.4);
+	margin-left: 30px;
+	transition: opacity .25s ease;
+}
+
+#streamHabitat img:hover
+{
+	opacity: .6;
+}
+
+#workParty
+{
+	font-size: 35px;
+	color: #70ba1a;
+	margin-left: 550px;
+}
+
+#streamHabitat p
+{
+	width: 500px;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: 50px;
+	margin-top: 30px;
+	color: #fff;
+}
+
+#traaGear h2
+{
+	color: #70ba1a;
+	font-size: 35px;
+	margin-top: 30px;
+}
+
+#traaGear div
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#traaGear p
+{
+	width: 600px;
+	margin-right: 120px;
+	color: #fff;
+	font-size: 22px;
+	margin-top: 30px;
+}
+
+#traaGear img 
+{
+	margin-top: 70px;
+}
+
+#specialThanks 
+{
+	margin-top: 30px;
+}
+
+#specialThanks h2
+{
+	color: #70ba1a;
+	font-size: 30px;
+	margin-left: 450px;
+	margin-bottom: 20px;
+}
+
+#specialThanks p
+{
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+
+#executives
+{
+	color: #70ba1a;
+	font-size: 30px;
+	margin-left: 450px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#ranks
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#ranks p
+{
+	color: #70ba1a;
+	font-size: 15px;
+}
+
+#names
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#names p
+{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+#ranks
+{
+	color: #70ba1a;
+	font-size: 15px;
+
+}
+
+#mainFooter p
+{
+	font-size: 25px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 83px;
+	margin-bottom: 10px;
+}
+
+#mainFooter h1 
+{
+	font-size: 25px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 90px;
+	margin-bottom: 10px;
+}
+
+#chairs
+{
+	color: #70ba1a;
+	font-size: 30px;
+	margin-left: 350px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#volunteerChairs
+{
+	color: #70ba1a;
+	display: flex;
+	flex-direction: row;
+	font-size: 15px;
+	margin-left: 47px;
+}
+
+#chairNames
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#chairNames p
+{
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 50px; 
+	color: #fff;
+	margin-top: 10px;
+}
+/* End of home page*/
+
+/*Projects page*/
+#traaProjects h2
+{
+	margin-top: 30px;
+	color: #70ba1a;
+	font-size: 26px;
+	margin-left: 310px;
+}
+
+#traaProjects p
+{
+	margin-top: 20px;
+	color: #fff;
+	font-size: 24px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#salmonMonitoring
+{
+	margin-top: 70px;
+}
+
+#salmonMonitoring h2
+{
+	color: #70ba1a;
+	font-size: 26px;
+	margin-bottom: 15px;
+}
+
+#salmonMonitoring p
+{
+	color: #fff;
+	font-size: 24px;
+}
+#monitoringPhotos
+{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+#monitoringPhotos img
+{
+	border-radius: 15px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#troutHatchery p
+{
+	color: #fff;
+	font-size: 24px;
+	margin-top: 15px;
+}
+
+#hatcheryPhotos
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#hatcheryPhotos img
+{
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+#incubation p
+{
+	color: #fff;
+	font-size: 24px;
+	margin-top: 15px;
+}
+
+#incubationPhotos
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#incubationPhotos img
+{
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+#fryBox img
+{
+	border-radius: 15px;
+	margin-left: 350px;
+	margin-top: 20px;
+}
+
+/*End of Project Page*/
+
+/*References Page*/
+
+#traaReferences h2
+{
+	color: #70ba1a;
+	font-size: 24px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#traaReferences h3
+{
+	text-decoration: underline;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#traaReferences ul li p a
+{
+	color: red;
+}
+
+#traaReferences ul li p
+{
+	color: #fff;
+	font-size: 19px;
+}
+
+#conversationAuth h2
+{
+	text-decoration: underline;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#conversationAuth ul li a
+{
+	color: red;
+	line-height: 30px;
+	font-size: 19px;
+}
+
+#governmentalEnt h2
+{
+	text-decoration: underline;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#governmentalEnt ul li a
+{
+	color: red;
+	line-height: 30px;
+	font-size: 19px;
+}
+
+#relatedRetailers h2
+{
+	text-decoration: underline;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#relatedRetailers ul li p a
+{
+	color: red;
+	line-height: 20px;
+}
+
+#relatedRetailers ul li p
+{
+	color: #fff;
+	font-size: 19px;
+}
+
+#relatedLinks h2
+{
+	text-decoration: underline;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#relatedLinks ul li p a
+{
+	color: red;
+	line-height: 20px;
+}
+
+#relatedLinks ul li p
+{
+	color: #fff;
+	font-size: 19px;
+}
+
+/*End of References Page*/
+
+/* Footer */
+#footerNav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 60px;
+	margin-top: 30px;
+}
+
+#footerNav ul
+{
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+}
+
+#footerNav ul li a 
+{
+	display: block;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 85px;
+	padding: 8px;
+	color: #fff;
+	font-size: 14px;
+	transition: all .3s ease;
+}
+
+#footerNav ul li a:hover
+{
+	background-color: #006600;
+}
+/* end of footer/*
