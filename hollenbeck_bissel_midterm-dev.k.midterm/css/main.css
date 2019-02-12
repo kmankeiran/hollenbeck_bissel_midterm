@@ -158,6 +158,7 @@ a {
 
 #mainNav ul li a:hover {
 	background-color: #006600;
+	border-radius: 2px;
 }
 /*end of header*/
 
